@@ -6,8 +6,6 @@
 //
 //
 
-#import <Foundation/Foundation.h>
+#import "RYFRefreshFooter.h"
+#import "RYFRefreshHeader.h"
 
-@interface RYFRefresh : NSObject
-
-@end

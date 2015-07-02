@@ -7,7 +7,8 @@
 //
 
 #import "CustomTableViewCell.h"
-
+#define HScreen [[UIScreen mainScreen] bounds].size.height
+#define WScreen [[UIScreen mainScreen] bounds].size.width
 @implementation CustomTableViewCell
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

@@ -8,6 +8,7 @@
 
 #import "TableViewDataSource.h"
 #import "CustomTableViewCell.h"
+#import "CustomModel.h"
 @implementation TableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     

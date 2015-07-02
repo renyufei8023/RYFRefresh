@@ -14,6 +14,15 @@
 		64AFABB91B43D69F007A3DA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AFABB81B43D69F007A3DA5 /* Images.xcassets */; };
 		64AFABBC1B43D69F007A3DA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64AFABBA1B43D69F007A3DA5 /* LaunchScreen.xib */; };
 		64AFABC81B43D69F007A3DA5 /* RYFRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AFABC71B43D69F007A3DA5 /* RYFRefreshTests.m */; };
+		64AFABD41B43D703007A3DA5 /* RYFRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AFABD31B43D703007A3DA5 /* RYFRefreshFooter.m */; };
+		64AFABD71B43D718007A3DA5 /* RYFRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AFABD61B43D718007A3DA5 /* RYFRefreshHeader.m */; };
+		64AFABDD1B43E909007A3DA5 /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AFABDB1B43E909007A3DA5 /* down@2x.png */; };
+		64AFABDE1B43E909007A3DA5 /* down@2x副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AFABDC1B43E909007A3DA5 /* down@2x副本.png */; };
+		64AFABE21B43F160007A3DA5 /* CustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AFABE11B43F160007A3DA5 /* CustomModel.m */; };
+		64AFABE81B43F176007A3DA5 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AFABE51B43F176007A3DA5 /* TableViewDataSource.m */; };
+		64AFABE91B43F176007A3DA5 /* TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AFABE71B43F176007A3DA5 /* TableViewDelegate.m */; };
+		64AFABED1B43F188007A3DA5 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AFABEC1B43F188007A3DA5 /* CustomTableViewCell.m */; };
+		64AFABF51B43F23E007A3DA5 /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AFABF41B43F23E007A3DA5 /* TableViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,23 @@
 		64AFABC11B43D69F007A3DA5 /* RYFRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYFRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AFABC61B43D69F007A3DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64AFABC71B43D69F007A3DA5 /* RYFRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYFRefreshTests.m; sourceTree = "<group>"; };
+		64AFABD21B43D703007A3DA5 /* RYFRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYFRefreshFooter.h; sourceTree = "<group>"; };
+		64AFABD31B43D703007A3DA5 /* RYFRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYFRefreshFooter.m; sourceTree = "<group>"; };
+		64AFABD51B43D718007A3DA5 /* RYFRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYFRefreshHeader.h; sourceTree = "<group>"; };
+		64AFABD61B43D718007A3DA5 /* RYFRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYFRefreshHeader.m; sourceTree = "<group>"; };
+		64AFABD81B43D739007A3DA5 /* RYFRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYFRefresh.h; sourceTree = "<group>"; };
+		64AFABDB1B43E909007A3DA5 /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
+		64AFABDC1B43E909007A3DA5 /* down@2x副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x副本.png"; sourceTree = "<group>"; };
+		64AFABE01B43F160007A3DA5 /* CustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModel.h; sourceTree = "<group>"; };
+		64AFABE11B43F160007A3DA5 /* CustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModel.m; sourceTree = "<group>"; };
+		64AFABE41B43F176007A3DA5 /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		64AFABE51B43F176007A3DA5 /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		64AFABE61B43F176007A3DA5 /* TableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDelegate.h; sourceTree = "<group>"; };
+		64AFABE71B43F176007A3DA5 /* TableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDelegate.m; sourceTree = "<group>"; };
+		64AFABEB1B43F188007A3DA5 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		64AFABEC1B43F188007A3DA5 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		64AFABF31B43F23E007A3DA5 /* TableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewModel.h; sourceTree = "<group>"; };
+		64AFABF41B43F23E007A3DA5 /* TableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +107,11 @@
 		64AFABAA1B43D69F007A3DA5 /* RYFRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				64AFABF21B43F23E007A3DA5 /* ViewModel */,
+				64AFABEA1B43F188007A3DA5 /* View */,
+				64AFABDF1B43F160007A3DA5 /* Model */,
+				64AFABE31B43F176007A3DA5 /* TableViewProtocol */,
+				64AFABD11B43D6CC007A3DA5 /* RYFRefresh */,
 				64AFABAF1B43D69F007A3DA5 /* AppDelegate.h */,
 				64AFABB01B43D69F007A3DA5 /* AppDelegate.m */,
 				64AFABB21B43D69F007A3DA5 /* ViewController.h */,
@@ -117,6 +148,58 @@
 				64AFABC61B43D69F007A3DA5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64AFABD11B43D6CC007A3DA5 /* RYFRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				64AFABDB1B43E909007A3DA5 /* down@2x.png */,
+				64AFABDC1B43E909007A3DA5 /* down@2x副本.png */,
+				64AFABD81B43D739007A3DA5 /* RYFRefresh.h */,
+				64AFABD21B43D703007A3DA5 /* RYFRefreshFooter.h */,
+				64AFABD31B43D703007A3DA5 /* RYFRefreshFooter.m */,
+				64AFABD51B43D718007A3DA5 /* RYFRefreshHeader.h */,
+				64AFABD61B43D718007A3DA5 /* RYFRefreshHeader.m */,
+			);
+			name = RYFRefresh;
+			sourceTree = "<group>";
+		};
+		64AFABDF1B43F160007A3DA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64AFABE01B43F160007A3DA5 /* CustomModel.h */,
+				64AFABE11B43F160007A3DA5 /* CustomModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64AFABE31B43F176007A3DA5 /* TableViewProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				64AFABE41B43F176007A3DA5 /* TableViewDataSource.h */,
+				64AFABE51B43F176007A3DA5 /* TableViewDataSource.m */,
+				64AFABE61B43F176007A3DA5 /* TableViewDelegate.h */,
+				64AFABE71B43F176007A3DA5 /* TableViewDelegate.m */,
+			);
+			path = TableViewProtocol;
+			sourceTree = "<group>";
+		};
+		64AFABEA1B43F188007A3DA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64AFABEB1B43F188007A3DA5 /* CustomTableViewCell.h */,
+				64AFABEC1B43F188007A3DA5 /* CustomTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64AFABF21B43F23E007A3DA5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64AFABF31B43F23E007A3DA5 /* TableViewModel.h */,
+				64AFABF41B43F23E007A3DA5 /* TableViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +281,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64AFABDD1B43E909007A3DA5 /* down@2x.png in Resources */,
+				64AFABDE1B43E909007A3DA5 /* down@2x副本.png in Resources */,
 				64AFABB71B43D69F007A3DA5 /* Main.storyboard in Resources */,
 				64AFABBC1B43D69F007A3DA5 /* LaunchScreen.xib in Resources */,
 				64AFABB91B43D69F007A3DA5 /* Images.xcassets in Resources */,
@@ -218,9 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64AFABD41B43D703007A3DA5 /* RYFRefreshFooter.m in Sources */,
+				64AFABE81B43F176007A3DA5 /* TableViewDataSource.m in Sources */,
 				64AFABB41B43D69F007A3DA5 /* ViewController.m in Sources */,
+				64AFABE21B43F160007A3DA5 /* CustomModel.m in Sources */,
+				64AFABE91B43F176007A3DA5 /* TableViewDelegate.m in Sources */,
+				64AFABED1B43F188007A3DA5 /* CustomTableViewCell.m in Sources */,
 				64AFABB11B43D69F007A3DA5 /* AppDelegate.m in Sources */,
+				64AFABF51B43F23E007A3DA5 /* TableViewModel.m in Sources */,
 				64AFABAE1B43D69F007A3DA5 /* main.m in Sources */,
+				64AFABD71B43D718007A3DA5 /* RYFRefreshHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
