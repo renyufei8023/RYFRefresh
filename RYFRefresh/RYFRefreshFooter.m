@@ -17,8 +17,7 @@
     float scrollWidth;
     BOOL isAdd;
     BOOL isRefresh;
-    
-    
+ 
     UIView *footerView;
     UIActivityIndicatorView *activityView;
 }
@@ -32,19 +31,13 @@
     scrollFrameHeight=_scrollView.frame.size.height;
     isAdd=NO;
     isRefresh=NO;
-    
-    
-    
+
     footerView=[[UIView alloc] init];
     activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-    
-    
-    [_scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
-    
-    
-    
-}
 
+    [_scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
+
+}
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
@@ -72,11 +65,7 @@
         
         [self beginRefreshing];
     }
-    
-    
-    
-    
-    
+
 }
 //开始刷新操作  如果正在刷新则不做操作
 -(void)beginRefreshing{
@@ -91,16 +80,13 @@
         
         //        block回调
         _beginRefreshingBlock();
-        
-        
-        
+ 
     }
     
 }
 //关闭刷新操作
 -(void)endRefreshing{
     isRefresh=NO;
-    
     
     dispatch_async(dispatch_get_main_queue(), ^{
         

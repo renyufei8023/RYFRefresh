@@ -14,8 +14,7 @@
     float contentHeight;
     float headerHeight;
     BOOL isRefresh;
-    
-    
+
     UILabel *headerLabel;
     UIView *headerView;
     UIImageView *headerIV;
@@ -34,41 +33,29 @@
     float imageHeight=headerHeight;
     float labelWidth=130;
     float labelHeight=headerHeight;
-    
-    
-    
+
     headerView=[[UIView alloc] initWithFrame:CGRectMake(0, -headerHeight-10, _scrollView.frame.size.width, headerHeight)];
     [_scrollView addSubview:headerView];
-    
-    
-    
+
     headerLabel=[[UILabel alloc] initWithFrame:CGRectMake((scrollWidth-labelWidth)/2, 0, labelWidth, labelHeight)];
     [headerView addSubview:headerLabel];
     headerLabel.textAlignment=NSTextAlignmentCenter;
     headerLabel.text=@"下拉可刷新";
     headerLabel.font=[UIFont systemFontOfSize:14];
-    
-    
+   
     headerIV=[[UIImageView alloc] initWithFrame:CGRectMake((scrollWidth-labelWidth)/2-imageWidth, 0, imageWidth, imageHeight)];
     [headerView addSubview:headerIV];
     headerIV.image=[UIImage imageNamed:@"down"];
-    
-    
+
     activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     activityView.frame=CGRectMake((scrollWidth-labelWidth)/2-imageWidth, 0, imageWidth, imageHeight);
     [headerView addSubview:activityView];
-    
-    
-    
+
     activityView.hidden=YES;
     headerIV.hidden=NO;
-    
-    
+
     //    为_scrollView设置KVO的观察者对象，keyPath为contentOffset属性
     [_scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
-    
-    
-    
 }
 
 //当属性的值发生变化时，自动调用此方法
@@ -85,9 +72,7 @@
         //        判断是否正在刷新  否则不做任何操作
         if (!isRefresh) {
             [UIView animateWithDuration:0.3 animations:^{
-                
-                
-                
+
                 //                当currentPostion 小于某个值时 变换状态
                 if (currentPostion<-headerHeight*1.5) {
                     
